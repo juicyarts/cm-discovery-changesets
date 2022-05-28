@@ -1,6 +1,6 @@
 {
   "name": "@juicyarts/cm-discovery-changesets",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "change management discovery with changeset",
   "main": "src/hello.js",
   "type": "module",
