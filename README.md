@@ -31,14 +31,18 @@ $ pnpm changeset
 ```
 
 * Push your branch and open a merge request.
+
+![Screen](docs/changeset%20bot%20detected.png)
+
 * After the merge request is merged changeset will create a new pull request containing the appropriate version bump/s and changelog updates.
 
 ![Screen](docs/release%20bot%20merge%20requests.png)
 
-* this is only a request for a version bump, not yet the version bump itself
+* this is only a request for a version bump, not yet the version bump itself. If we merge this pr changeset will create relevant tags, publish needed packages and write the changelog.
 
 * if we would not not add a changeset to your pr the changeset bot comes into action
-* ![Screen](docs/changeset%20bot.png)
+
+![Screen](docs/changeset%20bot%20undetected.png)
 
 ## Gimmicks
 
