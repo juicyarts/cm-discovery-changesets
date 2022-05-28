@@ -1,3 +1,11 @@
 node_modules
+.pnp
+.pnp.js
+.pn
+.pnpm-store
+
 reports
 .gitconfig
+
+# misc
+.DS_Store
