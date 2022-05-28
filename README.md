@@ -50,6 +50,21 @@ $ pnpm changeset
 
 * this pr stays open until merged, it updates every time a new changeset lands in the main branch
 
-## Gimmicks
+-----------------------
 
-* Changeset bot checks pull requests for changeset
+## Observations
+
+* only works with node based packages
+* simple changelog
+
+### pro's
+
+* easy to set up and use
+* provides high level of control over _when_ to release
+* allows [snapshot releases](https://github.com/changesets/changesets/blob/main/docs/snapshot-releases.md) for testing
+
+### con's
+
+* more active interaction needed
+* changelogs don't contain participants
+  * could be customized through <https://github.com/changesets/changesets/blob/main/docs/modifying-changelog-format.md>
