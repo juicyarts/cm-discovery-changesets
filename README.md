@@ -29,3 +29,16 @@ $ pnpm changeset
 🦋  If you want to modify or expand on the changeset summary, you can find it here
 🦋  info /Users/yildiz/repos/goingForward/case-studies/change-and-release-mngmnt/cm-discovery-changesets/.changeset/polite-dodos-live.md
 ```
+
+* Push your branch and open a merge request.
+* After the merge request is merged changeset will create a new pull request containing the appropriate version bump/s and changelog updates.
+
+![Screen](docs/release%20bot%20merge%20requests.png)
+
+* this is only a request for a version bump, not yet the version bump itself
+
+*
+
+## Gimmicks
+
+* Changeset bot checks pull requests for changeset
