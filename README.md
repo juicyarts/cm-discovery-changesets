@@ -37,7 +37,8 @@ $ pnpm changeset
 
 * this is only a request for a version bump, not yet the version bump itself
 
-*
+* if we would not not add a changeset to your pr the changeset bot comes into action
+* ![Screen](docs/changeset%20bot.png)
 
 ## Gimmicks
 
