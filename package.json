@@ -1,17 +1,32 @@
 {
   "name": "@juicyarts/cm-discovery-changesets",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "change management discovery with changeset",
+  "main": "src/hello.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
+    "test:ci": "node --test | ./node_modules/tap-junit/bin/tap-junit --output ./reports/test-results",
     "ci:version": "changeset version",
     "ci:publish": "changeset publish"
   },
-  "keywords": [],
-  "author": "huess",
-  "license": "ISC",
+  "keywords": [
+    "changeset",
+    "change-management"
+  ],
+  "author": "huess <huess@juicyarts.de>",
+  "license": "MIT",
   "dependencies": {
     "@changesets/cli": "^2.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicyarts/cm-discovery-changesets"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "tap-junit": "^5.0.2"
   }
 }
