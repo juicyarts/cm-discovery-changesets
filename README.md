@@ -44,6 +44,12 @@ $ pnpm changeset
 
 ![Screen](docs/changeset%20bot%20undetected.png)
 
+* if we add another changeset that does not affect the previous version bump the version stays the same.
+
+![Screen](docs/release%20bot%20merge%20request%20update.png)
+
+* this pr stays open until merged, it updates every time a new changeset lands in the main branch
+
 ## Gimmicks
 
 * Changeset bot checks pull requests for changeset
