@@ -1,4 +1,4 @@
-# Change Management Discovery: [Changesets](https://intuit.github.io/auto/index)
+# Change Management Discovery: [Changeset](https://intuit.github.io/auto/index)
 
 ## Why ?
 
