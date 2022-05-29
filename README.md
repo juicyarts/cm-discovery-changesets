@@ -4,6 +4,8 @@
 
 Currently we have a lot of inconsistencies in versioning, releasing and managing changelogs across applications and libraries. Partly there is no reasonable versioning in place and changelogs hardly exist, mostly being manually created and managed.
 
+Changeset handles version release and changelog management by actively enforcing the usage of change descriptions. You can collect changes up to a certain point before releasing them in a controlled way.
+
 ## Setup
 
 Follow the [guide](https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md). for initial setup.
