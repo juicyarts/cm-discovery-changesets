@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "juicyarts",
+      "name": "Huess",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1132937?v=4",
+      "profile": "http://juicyarts.de/",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cm-discovery-changesets",
+  "projectOwner": "juicyarts",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
